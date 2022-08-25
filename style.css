@@ -1,0 +1,117 @@
+* {
+    /* max-width: 500px; */
+    margin: 0;
+    padding: 0;
+}
+
+.big {
+    position: absolute;
+    background-color: #1B244A;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0 12rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title-home {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8vh ;
+    color: white;
+    text-align: center;
+    height: 10vh;
+    width: 9vw;
+}
+
+.title-guest {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8vh;
+    color: white;
+    text-align: center;
+    height: 10vh;
+    width: 9vw;
+}
+
+.homeScore {
+    background-color: black;
+    height: 20vh;
+    width: 10vw;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    display: grid;
+    align-content: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6rem;
+    color: #F94F6D;
+}
+
+.guestScore {
+    background-color: black;
+    height: 20vh;
+    width: 10vw;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    display: grid;
+    align-content: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6rem;
+    color: #F94F6D;
+}
+
+.increment {
+    background-color: #1B244A;
+    height: 10vh;
+    width: 10vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0 0.5rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #9AABD8;
+}
+
+.increaseBy1 {
+    border: 3px solid #9AABD8;
+    border-radius: 4px;
+    height: 4.5vh;
+    width: 1.6vw;
+}
+
+.increaseBy2 {
+    border: 3px solid #9AABD8;
+    border-radius: 4px;
+    height: 4.5vh;
+    width: 1.6vw;
+}
+
+.increaseBy3 {
+    border: 3px solid #9AABD8;
+    border-radius: 4px;
+    height: 4.5vh;
+    width: 1.6vw;
+}
+#increase-btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #9AABD8;
+}
